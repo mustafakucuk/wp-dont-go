@@ -1,0 +1,31 @@
+/* Global CSS */
+.wrapLeft{width: 69%;float: left;}
+.wrapRight{width: 25%;float: right;}
+#wpnlh_navbar{padding:15px;border-radius: 4px 0 0 4px;background: rgb(52,92,181);background: -moz-linear-gradient(left, rgba(52,92,181,1) 0%, rgba(57,119,212,1) 100%);background: -webkit-linear-gradient(left, rgba(52,92,181,1) 0%,rgba(57,119,212,1) 100%);background: linear-gradient(to right, rgba(52,92,181,1) 0%,rgba(57,119,212,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#345cb5', endColorstr='#3977D4',GradientType=1);}
+#wpnlh_navbar span{color:#fff;font-size:18px;}
+#wpnlh_navbar small{color:#fff;font-size:10px;}
+#wpnlh_content{background:#fff;display: block;min-height:250px }
+#wpnlh_content_block{padding:15px;box-shadow: 0 8px 24px rgba(0,0,0,0.15);border-radius: 4px;}
+#wpnlh_content_block label{font-weight: bold;}
+#wpnlh_content_block .title{font-weight: bold; font-size:19px}
+#wpnlh_content_block .wpajansLogo{width: 100%}
+#wpnlhTextBox{padding: 15px;height: 40px;width: 100%;}
+#wpnlh_select{width:100%;padding:15px;height:40px;}
+#wpnlh_button{background:#03A9F4;float:right;border:none;padding:15px;color:#fff;width:160px;margin:10px 0}
+#wpnlh_button:hover{background-color:#0692d2;cursor:pointer;}
+.wpajansInput{width: 98%;padding: 9px;text-align: center;font-size: 18px;color:#939393;box-shadow:0 8px 24px rgba(0,0,0,0.15);border-radius:4px;margin:10px 0}
+.wpajansTextarea{width: 98%;padding: 9px;text-align: center;font-size: 18px;color:#939393;box-shadow:0 8px 24px rgba(0,0,0,0.15);border-radius:4px;margin:10px 0}
+.wpajansSelect{width: 98%;padding: 9px;text-align: center;height:42px;color:#939393;box-shadow:0 8px 24px rgba(0,0,0,0.15);border-radius:4px;margin:10px 0}
+.wpajansNotice{padding: 18px;border-radius:0 4px 4px 0;background:#e14853;background:-moz-linear-gradient(left,rgba(225,72,83,1) 0%,rgba(232,49,43,1) 100%);background:-webkit-linear-gradient(left,rgba(225,72,83,1) 0%,rgba(232,49,43,1) 100%);background:linear-gradient(to right,rgba(225,72,83,1) 0%,rgba(232,49,43,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E14853',endColorstr='#E8312B',GradientType=1);width: 95%;color: #fff;box-shadow: 0 8px 24px rgba(0,0,0,0.15);border-radius: 4px;margin: 10px 0;}
+@media screen and (max-width: 810px) {
+    .wrapLeft{width: 100%;float: none;}
+    .wrapRight{width: 100%;float: none;}
+}
+
+/* Plugin CSS */
+.box{position:relative;width:100%;height:53px;background:#333}
+.box .corner{max-width:82%;height:30px;position:absolute;left:9.5%;bottom:0;border-color:#ddd;z-index:1;line-height:31px;font:12px/30px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;cursor:default;text-overflow:ellipsis;white-space:nowrap}
+.box .corner img{width: 16px;margin: 0 0 -3px;}
+.box .corner:after,.box .corner:before{content:'';display:block;position:absolute;z-index:-1}
+.box .corner:before{left:-5px;right:-5px;top:0;border-radius:5px;border:3px solid;border-color:inherit}
+.box .corner:after{height:0;left:-13px;right:-13px;top:2px;box-sizing:border-box;border:18px solid transparent;border-width:0 8px 28px;border-bottom-color:inherit}
